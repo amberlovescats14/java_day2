@@ -81,7 +81,7 @@ public class Main {
         double multiply = principalSave * divided;
 
         String mortgage = NumberFormat.getCurrencyInstance().format(multiply);
-        System.out.println(mortgage);
+        System.out.println("Monthly payment amount: " + mortgage);
 
 
     }
