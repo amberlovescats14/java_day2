@@ -56,7 +56,7 @@ public class Main {
         while(true){
             System.out.print("Annual Interest Rate: ");
             monthlyInterest = (annualIn.nextDouble() / PERCENT) / MONTHS_IN_YEAR;
-            if(monthlyInterest >= 0 && monthlyInterest < 10) break;
+            if(monthlyInterest > 0 && monthlyInterest < 10) break;
             System.out.println("Please enter a number between .1-10");
         }
 
